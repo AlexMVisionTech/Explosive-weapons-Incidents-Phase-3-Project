@@ -85,7 +85,7 @@ Two models were trained and evaluated to predict the type of explosive weapon us
     Better handles class imbalance and gives more balanced performance across classes
 
 ### 🔁 Model Comparison
-|-----------------------------|-----------------------------------|------------------|
+
 |Metric                       |Logistic Regression                |Decision Tree     |
 |-----------------------------|-----------------------------------|------------------|
 |Accuracy                     |       0.77	                      | 0.84             |
