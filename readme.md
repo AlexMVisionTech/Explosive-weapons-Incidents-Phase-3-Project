@@ -58,13 +58,13 @@ The dataset was imported from the local file:
 
 ```plaintext
 2025-explosive-weapons-incident-data.xlsx
+```
 
----
 
 ## 📊 Model Evaluation
 
 Two models were trained and evaluated to predict the type of explosive weapon used.
-✅ Logistic Regression
+### ✅ Logistic Regression
 
     Accuracy: ~77%
 
@@ -74,7 +74,7 @@ Two models were trained and evaluated to predict the type of explosive weapon us
 
     Performs well on the majority class but fails on rare classes due to class imbalance
 
-🌲 Decision Tree Classifier
+### 🌲 Decision Tree Classifier
 
     Accuracy: ~84%
 
@@ -84,12 +84,12 @@ Two models were trained and evaluated to predict the type of explosive weapon us
 
     Better handles class imbalance and gives more balanced performance across classes
 
-🔁 Model Comparison
+### 🔁 Model Comparison
 Metric	______________________  Logistic Regression____________Decision Tree
 Accuracy                             0.77	                       0.84
 Weighted F1-score           	     0.67           	           0.83
 Macro F1-score              	     0.11	                       0.29
 Class Imbalance           	     Poor handling	               Better handling
 
-✅ Conclusion:
+## ✅ Conclusion:
 The Decision Tree outperforms Logistic Regression across all metrics, especially in predicting minority classes, making it more suitable for this task.
